@@ -1,0 +1,65 @@
+body{
+   background:url('images/background.jpg');
+    background-size: cover;
+  background-position: center;
+    /* spaces content from top and sides (respectively) */
+    margin:30px 50px;
+    line-height:1.4;
+}
+#project-head{
+    font-family: 'Dosis', sans-serif; 
+    font-size:7rem;
+    color: black;
+}
+
+#articles {
+ 
+  text-align:center;
+
+}
+#notes {
+    order: solid black 2px
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background:url('images/notepaper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.view{
+    font-family: 'Dosis', sans-serif; 
+    
+}
+h3:hover{
+    color:#fff4a2
+}
+
+  
+input {
+  height: 36px;
+  font-size: 24px;
+}
+#bodyinput{
+    font-family: 'Dosis', sans-serif; 
+    
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+#showcase{
+    background: url('images/manuscript.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom:solid black 10px;
+}
+#article-side{
+    background: #000000bd;
+    color: white;
+}
+#notes{
+    background: #000000bd;
+    color: white;
+}
