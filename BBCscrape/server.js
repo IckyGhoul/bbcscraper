@@ -35,15 +35,16 @@ mongoose.connect(MONGODB_URI)
 app.get('/scrape',function(req,res){
     axios.get('https://www.bbc.com/news').then(function(response){
         var $ = cheerio.load(response.data)
+       
 
         $('.nw-c-top-stories__secondary-item').each(function(i,element){
-    
+         
           var urlRoot = 'https://www.bbc.com'
           var  result = {};
           result.title =  $(element).find('h3').text()
           result.summary = $(element).find('p').text()
           result.link = urlRoot + $(element).find('a').attr('href')
-            console.log(result)
+         
           db.Article.create(result)
         //   .then(function(dbArticle){
         //       console.log(dbArticle)
