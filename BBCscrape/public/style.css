@@ -32,7 +32,7 @@ textarea, input {
     
 }
 h3:hover{
-    color:#fff4a2
+    color:#2c9abc
 }
 
   
@@ -56,10 +56,10 @@ textarea {
     border-bottom:solid black 10px;
 }
 #article-side{
-    background: #000000bd;
+    background: #21211d;
     color: white;
 }
 #notes{
-    background: #000000bd;
+    background: #21211d;
     color: white;
 }
