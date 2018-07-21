@@ -10,7 +10,7 @@ $.getJSON("/articles", function(data) {
       $("#articles").append("<h3 data-id='" + id + "'>" + title + "</h3>")
       $('#articles').append('<p>' + summary + '</p>')
       $('#articles').append('<button class="view"> <a href= ' + link + ' target="_blank"> view article </a> </button> <br>')
-      $('#articles').append('</div>')
+      $('#articles').append('</div> <br>')
     }
   });
   
